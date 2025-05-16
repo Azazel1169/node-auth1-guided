@@ -16,7 +16,7 @@ server.use(
       secure: false, // set to true if using https
       httpOnly: false, // set to true to prevent client-side JS from accessing the cookie
     },
-    rolling: true, // reset maxAge on every response
+    // reset maxAge on every response
     resave: false,
     saveUninitialized: false, // don't create session until something stored
   })
